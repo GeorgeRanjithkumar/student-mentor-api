@@ -80,7 +80,7 @@ router.get("/getAll", async (req, res) => {
 });
 
 // Test route
-router.get('test',(req,res)=>{
+router.get('/test',(req,res)=>{
   res.json({message:"test working",code:200})
 })
 
