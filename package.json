@@ -1,6 +1,19 @@
 {
+  "name": "student-mentor-api",
+  "description": "An api for students and mentors",
+  "version": "1.0.0",
+  "author": "GeorgeRanjithKumar",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon node index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon":"*"
   }
 }
