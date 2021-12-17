@@ -5,6 +5,9 @@
   "author": "GeorgeRanjithKumar",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": "16.13.1"
+  },
   "scripts": {
     "start": "node index.js",
     "dev":"nodemon node index.js"
